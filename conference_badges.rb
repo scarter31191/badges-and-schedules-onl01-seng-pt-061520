@@ -20,7 +20,7 @@ end
   
 def printer (attend)
   step_one = batch_badge_creator (attend)
-  step_two.each do |x|
+  step_one.each do |x|
     puts x
 end
   step_one = assign_rooms (attend)
