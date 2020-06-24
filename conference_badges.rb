@@ -24,7 +24,7 @@ def printer (speaker)
     puts x
 end
   step_one = assign_rooms (name)
-  step_two.each do |x|
+  step_one.each do |x|
     puts x 
   end
 end
