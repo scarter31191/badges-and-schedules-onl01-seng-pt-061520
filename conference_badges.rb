@@ -10,4 +10,3 @@ batch_badge_creator(name)
       messages << badge_maker(name)
   end
   return messages
-end  
