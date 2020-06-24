@@ -14,7 +14,9 @@ end
 
 def assign_room (speaker)
   mess = []
-speaker.each_with_index{ |speaker, index| mess << "Hello, #{speaker} "  
+speaker.each_with_index{ |speaker, index| mess << "Hello, #{speaker} You'll be assigned to room #{index+1}!"}
+return mess
+end
   
   
   
