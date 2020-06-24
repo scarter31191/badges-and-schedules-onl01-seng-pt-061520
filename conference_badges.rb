@@ -18,12 +18,12 @@ speaker.each_with_index{ |speaker, index| mess << "Hello, #{speaker}! You'll be 
 return mess
 end
   
-def printer (speaker)
-  step_one = batch_badge_creator (name)
+def printer (attend)
+  step_one = batch_badge_creator (attend)
   step_two.each do |x|
     puts x
 end
-  step_one = assign_rooms (name)
+  step_one = assign_rooms (attend)
   step_one.each do |x|
     puts x 
   end
