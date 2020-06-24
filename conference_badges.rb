@@ -1,7 +1,7 @@
 speaker = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
 
-def badge_maker(speaker)
-  return "Hello, my name is #{speaker}."
+def badge_maker(name)
+  return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(name)
@@ -11,3 +11,12 @@ def batch_badge_creator(name)
   end
   return messages
 end
+
+def assign_room (speaker)
+  mess = []
+speaker.each_with_index{ |speaker, index| mess << "Hello, #{speaker} "  
+  
+  
+  
+  
+  
