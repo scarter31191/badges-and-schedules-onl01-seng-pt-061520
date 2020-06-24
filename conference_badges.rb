@@ -1,6 +1,6 @@
-speaker = []
+speaker = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
 
-def badge_maker(name)
-  puts "Hello, my name is #{name}."
+def badge_maker(speaker)
+  puts "Hello, my name is #{speaker}."
 end
 
